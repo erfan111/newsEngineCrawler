@@ -27,7 +27,8 @@ Iran University of Science and Technology
 Bahman 1395
 
 Check out [newsEngineCrawler](https://github.com/erfan111/newsEngineCrawler)  
-Check out [newsEngine](https://github.com/erfan111/newsEngine)
+Check out [newsEngine](https://github.com/erfan111/newsEngine)  
+
 --------------
 
 1. ##Project Description
@@ -154,13 +155,13 @@ The controller of spring web framework responds to API calls. The framework uses
 3.4.2. Web service API
 ```
 -
-## /news/&lt;count&gt;                Retrieve latest news
+## /news/<count>                Retrieve latest news
 -
-## /news/id/&lt;id&gt;                Retrieve an specific article
+## /news/id/<id>                Retrieve an specific article
 -
-## /news/press/&lt;press&gt;        Retrieve articles from a press
+## /news/press/<press>        Retrieve articles from a press
 -
-## /news/category/&lt;cat&gt;        Retrieve a specific category of articles
+## /news/category/<cat>        Retrieve a specific category of articles
 -
 ## /query       POST → json { "qeury": "", "weights" : [] }     Search the index
 ```
